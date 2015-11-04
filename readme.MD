@@ -24,4 +24,4 @@ as the used templates extension is .tpl<br/>
 1. type: use helpers\Twig; (preferably at the beginning of file)<br/>
 2. replace View::render(...) with Twig::render(...)<br/>
 
-<b>Step4:</b> learn Twig syntax ;)
+<b>Step4:</b> learn Twig syntax and have fun ;)
