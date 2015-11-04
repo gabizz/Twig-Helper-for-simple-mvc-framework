@@ -19,5 +19,4 @@ class Twig {
 
 		echo $twig->render($template_name, $data);
     }
-
 }
