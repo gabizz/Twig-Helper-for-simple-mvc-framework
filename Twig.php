@@ -16,7 +16,7 @@ class Twig {
                    'autoescape' =>  true,
 
         ));
-
+		$twig->AddExtension(new \Twig_Extension_Debug());
 		echo $twig->render($template_name, $data);
     }
 }
